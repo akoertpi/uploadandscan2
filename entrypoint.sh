@@ -201,7 +201,7 @@ then
                 echo "ERROR: selected cannot go together with selectedpreviously, toplevel, scanallnonfataltoplevelmodules, exclude, include"
                 exit 1
         else
-                echo "        -selectedpreviously \"$selectedpreviously\" \\" >> runJava.sh
+                echo "        -selected \"$selected\" \\" >> runJava.sh
         fi
 fi
 
